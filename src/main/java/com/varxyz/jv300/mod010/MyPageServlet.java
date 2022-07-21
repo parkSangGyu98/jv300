@@ -47,7 +47,6 @@ public class MyPageServlet extends HttpServlet {
       response.addCookie(lastAccessTime());
       
       
-      
       request.getRequestDispatcher("mypage.jsp").forward(request, response);
    }
    
